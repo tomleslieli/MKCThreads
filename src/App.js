@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="box" id="left">
+      <div className="box-text">
+        <p>Custom Orders</p>
+        <div className="text-box"><p/></div>
+        </div>
+        <img alt="mkc-eggloo" src="https://cdn.shopify.com/s/files/1/0343/4876/1132/files/Rest-01_540x.jpg?v=1613747291"/>
+      </div>
+      <div className="box" id="right">
+        <div className="box-text">
+          <p>Greek Apparel</p>
+          <div className="text-box"/>
+        </div>
+        <img alt="mkc-akdphi" src="https://cdn.shopify.com/s/files/1/0343/4876/1132/files/Grad-02_540x.jpg?v=1613747290"/>
+        </div>
     </div>
   );
 }
